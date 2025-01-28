@@ -55,7 +55,7 @@ DataWedge.addListener('scan', event => {
 * [`disableScanner()`](#disablescanner)
 * [`startScanning()`](#startscanning)
 * [`stopScanning()`](#stopscanning)
-* [`addListener('scan', ...)`](#addlistenerscan)
+* [`addListener('scan', ...)`](#addlistenerscan-)
 * [`__registerReceiver(...)`](#__registerreceiver)
 * [Interfaces](#interfaces)
 * [Type Aliases](#type-aliases)
@@ -228,7 +228,7 @@ THIS METHOD IS FOR INTERNAL USE ONLY
 
 #### RegisterOptions
 
-<code>{ /** * Intent action name to listen for * * @since 0.3.1 */ intent?: string; }</code>
+<code>{ /** * Intent action name to listen for * * @since 0.3.1 */ intent?: string; }</code>
 
 </docgen-api>
 
